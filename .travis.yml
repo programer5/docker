@@ -25,10 +25,10 @@ after_success:
 deploy:
   provider: elasticbeanstalk
   region: "ap-northeast-2"
-  app: "docker-full-stack-2"
+  app: "docker-fullstack-2"
   env: "Dockerfullstack2-env"
   bucket_name: elasticbeanstalk-ap-northeast-2-250058502806
-  bucket_path: "docker-full-stack-2"
+  bucket_path: "docker-fullstack-2"
   on:
     branch: master
   
