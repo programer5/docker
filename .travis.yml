@@ -25,10 +25,10 @@ after_success:
 deploy:
   provider: elasticbeanstalk
   region: "ap-northeast-2"
-  app: "react-app"
-  env: "Reactapp-env"
+  app: "docker-full-stack-2"
+  env: "Dockerfullstack2-env"
   bucket_name: elasticbeanstalk-ap-northeast-2-250058502806
-  bucket_path: "react-user"
+  bucket_path: "docker-full-stack-2"
   on:
     branch: master
   
