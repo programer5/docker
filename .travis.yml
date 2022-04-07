@@ -23,6 +23,7 @@ after_success:
   - docker push jms0324/docker-nginx
 
 deploy:
+  edge: true
   provider: elasticbeanstalk
   region: "ap-northeast-2"
   app: "docker-fullstack-2"
